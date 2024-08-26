@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--header start-->
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="logo.jpg" alt="logo"></a>
+            <div class="list" id="navlink">
+                <i class="fa fa-times-circle" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <div class="textbox">
+            <h1>Welcome to Shinobi Academy</h1>
+            <p>Gain ultimate ninja jutsu by clicking <b>Register Here</b> button</p><br><br>
+            <a href="form.html" class="register" onclick="showform()">Register Here</a>
+        </div>
+
+        <div class="formbox" id="formbox">
+            <i class="fa fa-times-circle" onclick="hideform()"></i>
+            Register Here
+
+
+        </div>
+    </section>
+    <!--header close-->
+
+    <!--feature start-->
+    <section class="feature">
+        <h2 class="feat">Features</h2>
+        <p>Services we provide</p>
+        <div class="row">
+            <div class="col">
+                <h3>Nin Jutsu</h3>
+                <p>Ninjutsu (忍術, literally meaning: Ninja Techniques) is one of the three main jutsu categories. Ninjutsu is the most nebulous of the three, and may most simply be described as anything that is not genjutsu or taijutsu.</p>
+            </div>
+            <div class="col">
+                <h3>Tai Jutsu</h3>
+                <p>Taijutsu (体術, literally meaning: Body Techniques) is a basic form of techniques and refers to any techniques involving the martial arts or the optimisation of natural human abilities.</p>
+            </div>
+            <div class="col">
+                <h3>Gen Jutsu</h3>
+                <p>Genjutsu (幻術, literally meaning: Illusionary Techniques) is one of the main jutsu categories which uses chakra. Unlike ninjutsu, the effects of genjutsu are not real, being only sensory illusions experienced by those who fall victim to it.</p>
+            </div>
+        </div>
+    </section>
+    <!--feature close-->
+
+    <!--branch section start-->
+    <section class="branch">
+        <h2 class="feat"> Our Branch</h2>
+        <p>Our branch all over</p>
+        <div class="row">
+            <div class="branchcol">
+              <img src="leaf.jpeg" alt="leaf">
+             <div class="village">
+                  <h3>Hidden Leaf Village</h3>
+              </div>
+            </div>
+           <div class="branchcol">
+               <img src="sand.jpeg" alt="sand">
+              <div class="village">
+                  <h3>Hidden Sand Village</h3>
+              </div>
+            </div>
+            <div class="branchcol">
+                <img src="mist.jpeg" alt="mist">
+              <div class="village">
+                   <h3>Hidden Mist Village</h3>
+               </div>
+            </div>
+        </div>
+    </section>
+    <!--branch close-->
+
+    <!--feedback section start-->
+    <section class="feedback">
+        <h2 class="feat">Feedback</h2>
+        <p>What our ninjas say</p>
+       
+        <div class="row">
+          <div class="feed-col">
+            <a href="https://twitter.com/?lang=en"><img src="naruto.jpeg" alt="naruto"></a>
+              <div class="feedname">
+                <a href="https://twitter.com/?lang=en"><h2>Naruto Uzumaki</h2></a>
+              <p>Hi! I am Naruto Uzumaki from Hidden leaf village. I'm currently a chunin at the Shinobi Academy.
+              This academy is really a helpful for mastering the ninja techniques. Dattebayo!😁👍</p>
+              </p>
+              <br>
+              <div class="star">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              </div>
+              </div>
+           </div>
+
+           <div class="feed-col">
+            <a href="https://twitter.com/?lang=en"> <img src="madara.jpeg" alt="madara"></a>
+            <div class="feedname">
+             <a href="https://twitter.com/?lang=en"><h2>Madara Uchiha</h2></a>
+            <p>Hi! I am Madara Uchiha, the Ghost of the Uchiha from Hidden leaf village. I'm the founder of the Shinobi Academy.
+            This academy is full of the ninja talents even you can taste the power of the INFINITE TSUKUYOMI.☠️</p>
+            </p>
+            <div class="star">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half"></i>
+            </div>
+            </div>
+            </div>
+
+            <div class="feed-col">
+            <a href="https://twitter.com/?lang=en"><img src="kakashi.jpeg" alt="kakashi"></a>
+            <div class="feedname">
+            <a href="https://twitter.com/?lang=en"><h2>Kakashi Hatake</h2></a>
+            <p>Hi! I am Kakashi Hatake, the Copy Ninja from Hidden leaf village. I'm currently a Jounin at the Shinobi Academy.
+            I can teach you more than 1000 jutsus. Xidooriii!⚡⚡</p>
+            </p>
+            <br><br>
+            <div class="star">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half"></i>
+            </div>
+            </div>
+            </div>
+       </div>
+    </section>
+    <!--feedback section end-->
+
+    <!--About us section start--> 
+    <section class="about">
+        <h1>Hurry up, we have greatest Matsuri festival offer for you</h1>
+        <a href="form.html" class="register">About Us</a>
+    </section>
+    <!--About us section end-->
+
+ <!--footer section start-->   
+ <section class="footer">
+    <h1>Let's socialize</h1>
+    <i class="fa-brands fa-github"></i>
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-linkedin"></i>
+    <i class="fa-brands fa-youtube"></i>
+    <p>Give your feedback about us and rate us if you like us </p>
+    <div class="last">
+        <i class="fa fa-copyright"></i>&nbsp;<h5>copyright 2024 Shinobi Academy</h5>
+        <div class="privacy">
+            <h5>Privacy policy</h5>
+        </div>
+    </div>
+ </section>
+ <!--footer section close--> 
+</body>
+    <script>
+        var navlink= document.getElementById("navlink");
+        function hidemenu(){
+            navlink.style.right ="-200px";
+        }
+        function showmenu(){
+            navlink.style.right ="0px";
+        }
+
+        var formbox= document.getElementById("formbox");
+        function showform(){
+            formbox.style.display ="block";
+        }
+        function hideform(){
+            formbox.style.display ="none";
+        }
+    </script>
+</body>
+</html>
